@@ -1,0 +1,226 @@
+body {
+    font-family: 'B612';
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url("../img/loki-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 45px 230px 111px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 75vh;
+}
+
+.top {
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+}
+
+.poster {
+    margin-right: 73px;
+    height: 267px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 267px;
+}
+
+.sinopse {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 722px;
+}
+
+.group {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 630px;
+}
+
+.meio h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.tempo {
+    display: flex;
+    align-items: center;
+}
+
+.tempo img {
+    margin-right: 12px;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.bx {
+    font-size: 33.33px;
+    color: #FFA800;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+button {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.botao-serie {
+    background: #0072D2;
+    padding: 15px 27px;
+    border: none;
+}
+
+.botao-trailer {
+    background: #131318;
+    padding: 15px 25px;
+    border: 1px solid #FFFFFF;
+}
+
+@media(max-width: 1108px) {
+    .container {
+        padding: 45px 50px 111px;
+    }
+}
+
+@media(max-width: 768px) {
+    .poster {
+        display: none;
+    }
+
+    .container {
+        padding: 60px 24px 34px;
+        height: 90vh;
+        position: absolute;
+    }
+
+    .top {
+        height: 122px;
+    }
+
+    .txt {
+        font-size: 18px;
+    }
+
+    .titulo {
+        font-size: 64px;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+        height: 276px;
+        width: 326px;
+    }
+
+    .group {
+        height: 127px;
+    }
+
+    .tempo img {
+        width: 15px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    .meio h1 {
+        font-size: 16px;
+    }
+
+    .avaliacao {
+        width: 100px;
+    }
+
+    .bx {
+        font-size: 16.67px;
+        height: auto;
+    }
+
+    .botoes {
+        width: auto;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .botao-serie {
+        padding: 8px 18.49px;
+    }
+
+    .botao-trailer {
+        padding: 8px 44.93px;
+    }
+
+    .sinopse {
+        font-size: 14px;
+        line-height: 20px;
+        border-top: 1px solid rgba(196, 196, 196, 0.08);
+        padding-top: 24px;
+    }
+
+    .gray {
+        height: 250px;
+        width: 100%;
+        background: #19191F;
+        border-radius: 20px 20px 0px 0px;
+        position: absolute;
+        bottom: 0;
+    }
+}
